@@ -1,0 +1,107 @@
+.over-wrapper {
+  display: flex;
+  align-items: center;
+
+  .over {
+    width: 100%;
+    height: 100vh;
+    background: #E5E5E5;
+    display: flex;
+    align-items: center;
+
+    .over_img {
+      margin-left: 12%;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .over_content {
+      display: flex;
+      flex-direction: column;
+      margin-left: 8.65%;
+      span {
+        font-family: Inter, sans-serif;
+        color: #1C1C21;
+        font-weight: 600;
+        display: flex;
+      }
+      .over_content-score {
+        font-size: 2rem;
+        line-height: 32px;
+        opacity: 0.5;
+      }
+      .over_content-price {
+        font-size: 3.5rem;
+        line-height: 56px;
+        margin-top: 8px;
+      }
+      button {
+        max-width: 296px;
+        width: 100%;
+        max-height: 64px;
+        height: 100%;
+        background: #FF8B37;
+        border-radius: 12px;
+        color: #fff;
+        line-height: 64px;
+        font-weight: 600;
+        font-size: 1.25rem;
+        border: none;
+        margin-top: 14.2%;
+        cursor: pointer;
+
+        &:hover {
+          background: #FFAC70;
+        }
+
+        &:focus {
+          background: #E87928;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .over-wrapper {
+    .over {
+      flex-direction: column;
+      justify-content: center;
+
+      .over_img,
+      .over_content {
+        margin-left: 0;
+        padding: 0 16px;
+        display: flex;
+        justify-content: center;
+
+        img {
+          width: 60%;
+        }
+      }
+      .over_content {
+        margin-top: 5.6%;
+        .over_content-score {
+          font-size: 1.125rem;
+          line-height: 18px;
+        }
+
+        .over_content-price {
+          font-size: 2rem;
+          line-height: 32px;
+          margin-bottom: 43%;
+        }
+
+        button {
+          max-width: 288px;
+          max-height: 48px;
+          font-size: 0.875rem;
+          line-height: 48px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
