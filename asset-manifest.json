@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/game/static/css/main.e4aeef3c.chunk.css",
+    "main.js": "/game/static/js/main.e8b1c16e.chunk.js",
+    "main.js.map": "/game/static/js/main.e8b1c16e.chunk.js.map",
+    "runtime-main.js": "/game/static/js/runtime-main.8cc128cf.js",
+    "runtime-main.js.map": "/game/static/js/runtime-main.8cc128cf.js.map",
+    "static/js/2.3ca7648a.chunk.js": "/game/static/js/2.3ca7648a.chunk.js",
+    "static/js/2.3ca7648a.chunk.js.map": "/game/static/js/2.3ca7648a.chunk.js.map",
+    "static/js/3.ab99f299.chunk.js": "/game/static/js/3.ab99f299.chunk.js",
+    "static/js/3.ab99f299.chunk.js.map": "/game/static/js/3.ab99f299.chunk.js.map",
+    "index.html": "/game/index.html",
+    "static/css/main.e4aeef3c.chunk.css.map": "/game/static/css/main.e4aeef3c.chunk.css.map",
+    "static/js/2.3ca7648a.chunk.js.LICENSE.txt": "/game/static/js/2.3ca7648a.chunk.js.LICENSE.txt",
+    "static/media/Hamburger_icon.a633845b.png": "/game/static/media/Hamburger_icon.a633845b.png",
+    "static/media/close.735f16fe.png": "/game/static/media/close.735f16fe.png",
+    "static/media/hand.ae778be2.svg": "/game/static/media/hand.ae778be2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8cc128cf.js",
+    "static/js/2.3ca7648a.chunk.js",
+    "static/css/main.e4aeef3c.chunk.css",
+    "static/js/main.e8b1c16e.chunk.js"
+  ]
+}
